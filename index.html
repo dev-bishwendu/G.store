@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G.store-have your third eye</title>
@@ -10,10 +10,86 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  </head>
+  <body>
+    <!--========================= header ===========================-->
+    <section class="container fixed-top header">
+      <nav class="navbar d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <a href="#"><img src="./asset/brand img.png" alt="" style="height: 70px; width: 70px;"></a>
+        </div>
+        <div class="menu d-none d-md-flex">
+          <ul class="navbar-nav align-items-center justify-content-center flex-row gap-5">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">CATALOG</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-item d-flex justify-content-end align-items-center">
+          <button class="btn btn-transparent d-sm-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" aria-controls="offcanvasExample1">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <a href="#"><img src="./asset/brand img.png" alt="" style="height: 70px; width: 70px;"></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-column align-items-center justify-content-center flex-row gap-5 mx-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">CATALOG</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn px-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample2" aria-controls="offcanvasExample2">
+            <i class="fa-solid fa-shopping-cart"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header border-bottom">
+              <h5>Your Cart</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p class="text-muted">Your cart is empty</p>
+              <button class="btn btn-primary w-100">Continue Shopping</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
     <script src="./js/boostrap.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
