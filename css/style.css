@@ -1,4 +1,58 @@
-.navbar{
-    margin: 0px;
-    padding: 10px 0px;
+/* ============================= header =============================== */
+.navbar-nav{
+    gap: 20px;
 }
+.navbar .logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    padding: 0 0 5px 0;
+}
+.nav-item .active{
+    color: #0f66f2 !important;
+    border-bottom: #0f66f2 solid 2px;
+    padding: 0 0 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-item .nav-link{
+    color: black;
+    padding: 0 0 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-item .nav-link:hover{
+    color: #0f66f2 !important;
+    border-bottom: #0f66f2 solid 2px;
+}
+.navbar .right-item{
+    padding: 0 0 5px 0;
+}
+/* ============================= header =============================== */
+
+/* ============================= banner =============================== */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination{
+    position: relative;
+    bottom: 0;
+  }
+/* ============================= banner =============================== */

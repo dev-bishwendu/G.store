@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <!--========================= header ===========================-->
-    <section class="container fixed-top header">
+    <!--============================= header ===============================-->
+    <section class="container sticky-top header">
       <nav class="navbar d-flex justify-content-between align-items-center">
         <div class="logo">
-          <a href="#"><img src="./asset/brand img.png" alt="" style="height: 70px; width: 70px;"></a>
+          <a href="#"><img src="./asset/brand img.png" alt="" style="height: 100px; width: 100px;"></a>
         </div>
         <div class="menu d-none d-md-flex">
           <ul class="navbar-nav align-items-center justify-content-center flex-row gap-5">
@@ -50,7 +50,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav flex-column align-items-center justify-content-center flex-row gap-5 mx-auto">
+              <ul class="navbar-nav flex-column align-items-center justify-content-center flex-row mx-auto">
                 <li class="nav-item">
                   <a href="#" class="nav-link active">HOME</a>
                 </li>
@@ -88,6 +88,17 @@
         </div>
       </nav>
     </section>
+    <!-- ============================ header =============================== -->
+    <section class="banner container-fluid">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-1">Slide 1</div>
+          <div class="swiper-slide slide-2">Slide 2</div>
+          <div class="swiper-slide slide-3">Slide 3</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> 
     <script src="./js/boostrap.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
