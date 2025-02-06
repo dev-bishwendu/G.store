@@ -13,7 +13,7 @@
   </head>
   <body>
     <!--============================= header ===============================-->
-    <section class="container sticky-top header">
+    <section class="container-fluid sticky-top header">
       <nav class="navbar d-flex justify-content-between align-items-center">
         <div class="logo">
           <a href="#"><img src="./asset/brand img.png" alt="" style="height: 100px; width: 100px;"></a>
@@ -89,16 +89,39 @@
       </nav>
     </section>
     <!-- ============================ header =============================== -->
+
+    <!-- ============================== banner =============================== -->
     <section class="banner container-fluid">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide-1">Slide 1</div>
-          <div class="swiper-slide slide-2">Slide 2</div>
-          <div class="swiper-slide slide-3">Slide 3</div>
+          <div class="swiper-slide slide-1 justify-content-start align-items-center text-start d-flex">
+            <div class="content container">
+              <h1>A better <span class="text-primary">life</span></h1>
+              <h1>A better <span class="text-primary">world</span></h1>
+              <p class="text-muted w-50">Success depends on getting details right. And whether you are train operator or high street retailer</p>
+              <button class="btn btn-primary mt-4">Shop Now</button>
+            </div>
+          </div>
+          <div class="swiper-slide slide-2 justify-content-center align-items-start text-center d-flex">
+            <div class="content container pt-5">
+              <h1>A better <span class="text-primary">life</span></h1>
+              <p class="text-muted">Success depends on getting details right.<br> And whether you are train operator or high street retailer</p>
+              <button class="btn btn-primary mt-4">Shop Now</button>
+            </div>
+          </div>
+          <div class="swiper-slide slide-3 justify-content-start align-items-center text-start d-flex">
+            <div class="content container">
+              <h1>More <span class="text-primary">intellegent</span></h1>
+              <h1>More <span class="text-primary">secure</span></h1>
+              <p class="text-muted w-50">Success depends on getting details right. And whether you are train operator or high street retailer</p>
+              <button class="btn btn-primary mt-4">Shop Now</button>
+            </div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
-    </section> 
+    </section>
+    <!-- ============================ banner ===============================  -->
     <script src="./js/boostrap.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>

@@ -1,6 +1,22 @@
 @media (min-width:100px) and (max-width:767px)
 {
-    
+    .swiper-slide{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        height: 50vh !important;
+    }
+    .swiper-slide .content{
+        padding-top: 0 !important;
+    }
+    .swiper-slide h1{
+        font-size: 30px !important;
+    }
+    .swiper-slide p{
+        width: 100% !important;
+        font-size: 15px !important;
+        color: #063627 !important;
+    }
 }
 @media (min-width:768px) and (max-width:991px)
 {
