@@ -1,5 +1,16 @@
 @media (min-width:100px) and (max-width:767px)
 {
+    /* ============================ global =============================== */
+    .mt{
+        margin-top: 50px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    /* ============================= banner =============================== */
     .swiper-slide{
         justify-content: center !important;
         align-items: center !important;
@@ -9,18 +20,21 @@
     .swiper-slide .content{
         padding-top: 0 !important;
     }
-    .swiper-slide h1{
-        font-size: 30px !important;
-    }
     .swiper-slide p{
         width: 100% !important;
         font-size: 15px !important;
         color: #063627 !important;
     }
+    /* ============================= banner =============================== */
+
+    /* ============================= latest device =============================== */
+
 }
 @media (min-width:768px) and (max-width:991px)
 {
+    /* ============================= header =============================== */
     .navbar-nav{
         gap: 15px !important;
     }
+    /* ============================= header =============================== */
 }
