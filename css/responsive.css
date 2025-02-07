@@ -50,6 +50,19 @@
     .letest-device-content p{
         display: none !important;
     }
+    /* ============================ latest device =============================== */
+
+    /* ============================= protection banner =============================== */
+    .protection-banner{
+        height: 40vh !important;
+    }
+    .banner-content{
+        justify-content: center !important;
+    }
+    .protection-item-2{
+        display: none !important;
+    }
+    /* ============================= protection banner =============================== */
 
 }
 @media (min-width:768px) and (max-width:1199px)
@@ -64,4 +77,17 @@
     .letest-device-content{
         padding-top: 40% !important;
     }
+    /* ============================= latest device =============================== */
+
+    /* ============================= protection banner =============================== */
+    .protection-banner{
+        height: 50vh !important;
+    }
+    .banner-content{
+        justify-content: center !important;
+    }
+    .protection-item-2{
+        display: none !important;
+    }
+    /* ============================= protection banner =============================== */
 }

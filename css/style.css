@@ -21,6 +21,14 @@ h4{
 a{
   text-decoration: none;
 }
+.btn-primary:hover{
+  background-color: black;
+}
+.line hr{
+  border-bottom: solid 2px rgb(14 14 14);
+  width: 50px;
+  opacity: 1.5;
+}
 /* ============================= header =============================== */
 .header{
   background-color: #ffffff;
@@ -207,12 +215,29 @@ a{
   z-index: 2;
   
 }
-.line hr{
-  border-bottom: solid 2px rgb(14 14 14);
-  width: 50px;
-  opacity: 1.5;
-}
 /* ============================ latest device =============================== */
+
+/* ============================ protection banner =============================== */
+.protection-banner{
+  background-image: url('../asset/protecttion\ banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+}
+.protection-item-1{
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10%;
+}
+.protection-item-2{
+  flex: 6;
+}
 
 /* ============================ animations =============================== */
 @keyframes pulse-border 
