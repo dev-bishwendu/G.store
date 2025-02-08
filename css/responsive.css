@@ -45,7 +45,8 @@
         justify-content: center !important;
         align-items: center !important;
         text-align: center !important;
-        padding-top: 15% !important;
+        padding-top: 10% !important;
+        gap: 10px !important;
     }
     .letest-device-content p{
         display: none !important;
@@ -58,6 +59,9 @@
     }
     .banner-content{
         justify-content: center !important;
+    }
+    .protection-item-1{
+        width: 100% !important;
     }
     .protection-item-2{
         display: none !important;
@@ -75,7 +79,10 @@
 
     /* ============================= latest device =============================== */
     .letest-device-content{
-        padding-top: 40% !important;
+        padding-top: 20% !important;
+    }
+    .latest-device h2{
+        text-align: center !important;
     }
     /* ============================= latest device =============================== */
 

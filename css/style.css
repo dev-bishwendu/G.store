@@ -227,7 +227,7 @@ a{
   width: 100vw;
 }
 .protection-item-1{
-  flex: 4;
+  flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +236,7 @@ a{
   padding-top: 10%;
 }
 .protection-item-2{
-  flex: 6;
+  flex: 4;
 }
 
 /* ============================ animations =============================== */
