@@ -70,17 +70,14 @@ a{
   width: 100%;
   height: 100%;
 }
-
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: grabbing;
+  padding-inline: 5%;
 }
-
+.swiper-slide p{
+  font-size: 25px;
+}
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -108,7 +105,8 @@ a{
   width: 100%;
 }
 .slide-2 .content{
-  padding-top: 8%;
+  position: absolute;
+  top: 8%;
 }
 .slide-3{
   background-image: url('../asset/banner-3.jpeg');
@@ -237,6 +235,70 @@ a{
 }
 .protection-item-2{
   flex: 4;
+}
+/* ============================ protection banner =============================== */
+
+/* ============================== protection =============================== */
+.protection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 0px;
+}
+.protection-content-1{
+  position: relative;
+  background-image: url('../asset/protection-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.protection-text{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  z-index: 1;
+  padding: 0 0 0 5%;
+  gap: 10px;
+}
+.protection-content-1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f4f070;
+  
+}
+.protection-content-2{
+  position: relative;
+  background-image: url('../asset/protection-1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+.protection-content-2::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f2e970;
+  
 }
 
 /* ============================ animations =============================== */

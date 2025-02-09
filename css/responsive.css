@@ -32,7 +32,7 @@
     .swiper-slide p{
         width: 100% !important;
         font-size: 13px !important;
-        color: #063627 !important;
+        color: #031c14 !important;
     }
     /* ============================= banner =============================== */
 
@@ -68,6 +68,21 @@
     }
     /* ============================= protection banner =============================== */
 
+    /* ============================= protection =============================== */
+    .protection{
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+    .protection-content-1, .protection-content-2{
+        height: 40vh !important;
+    }
+    .protection-text{
+        align-items: center !important;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    /* ============================= protection =============================== */
+
 }
 @media (min-width:768px) and (max-width:1199px)
 {
@@ -97,4 +112,10 @@
         display: none !important;
     }
     /* ============================= protection banner =============================== */
+
+    /* ============================= protection =============================== */
+    .protection-content-1, .protection-content-2{
+        height: 50vh !important;
+    }
+    /* ============================= protection =============================== */
 }
