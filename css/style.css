@@ -29,6 +29,9 @@ a{
   width: 50px;
   opacity: 1.5;
 }
+.card a:hover{
+  color: #6595e2 !important;
+}
 /* ============================= header =============================== */
 .header{
   background-color: #ffffff;
@@ -264,8 +267,7 @@ a{
   align-items: start;
   flex-direction: column;
   z-index: 1;
-  padding: 0 0 0 5%;
-  gap: 10px;
+  padding: 0 5% 0 5%;
 }
 .protection-content-1::before{
   content: '';
@@ -300,7 +302,97 @@ a{
   background-color: #f7f2e970;
   
 }
+/* ============================= protection =============================== */
 
+/* ============================= features =============================== */
+.features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px;
+}
+.features-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.features-grid .card .card-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-grid .card .card-head .img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.features-grid .card .card-head .img:hover{
+  background-color: #6595e2;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+/* ============================= features =============================== */
+
+/* ============================= products =============================== */
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.product-item .card-body a{
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+/* ============================= products =============================== */
+
+/* ============================= camera banner =============================== */
+.camera-banner{
+  background-image: url('../asset/camera-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.camera-text{
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline;
+  gap: 20px;
+  padding-top: 25%;
+}
+/* ============================= camera banner =============================== */
+
+/* ============================= surveillance =============================== */
+.surveillance{
+  background-image: url('../asset/surveillance.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+/* ============================= surveillance =============================== */
 /* ============================ animations =============================== */
 @keyframes pulse-border 
 {

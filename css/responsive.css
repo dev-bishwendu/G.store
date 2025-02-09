@@ -79,13 +79,33 @@
     .protection-text{
         align-items: center !important;
         text-align: center !important;
-        padding: 0 !important;
+        padding: 0 5% 0 5% !important;
     }
     /* ============================= protection =============================== */
+
+    /* ============================= features =============================== */
+    .features-grid{
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 20px !important;
+    }
+    /* ============================= features =============================== */
+
+    /* ============================= products =============================== */
+    .product-item{
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 10px !important;
+    }
+    /* ============================= products =============================== */
 
 }
 @media (min-width:768px) and (max-width:1199px)
 {
+    h3{
+        font-size: 25px !important;
+    }
+    h4{
+        font-size: 20px !important;
+    }
     /* ============================= header =============================== */
     .navbar-nav{
         gap: 15px !important;
@@ -118,4 +138,16 @@
         height: 50vh !important;
     }
     /* ============================= protection =============================== */
+
+    /* ============================= features =============================== */
+    .features-grid{
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
+    }
+    /* ============================= features =============================== */
+
+    /* ============================= products =============================== */
+    .product-item{
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
 }
