@@ -23,9 +23,7 @@
         text-align: center !important;
         height: 50vh !important;
     }
-    .swiper-slide .content{
-        padding-top: 0 !important;
-    }
+    
     .swiper-slide h1{
         font-size: 25px !important;
     }
@@ -97,14 +95,51 @@
     }
     /* ============================= products =============================== */
 
+    /* ============================= camera banner =============================== */
+    .camera-banner{
+        display: none !important;
+    }
+    /* ============================= camera banner =============================== */
+
+    /* ============================= surveillance =============================== */
+    .surveillance-text p{
+        display: none !important;
+    }
+    .surveillance-video{
+        height: 40vh !important;
+    }
+    /* ============================= surveillance =============================== */
+    
+    /* ============================= discount =============================== */
+    .w-50{
+        width: 300px !important;
+    }
+    /* ============================= discount =============================== */
+
+    /* ============================= footer-item =============================== */
+    .footer-item{
+        flex-direction: column !important;
+        gap: 10px !important;
+        justify-content: center !important;
+    }
+    .footer-img{
+        padding: 0 0 0 0 !important;
+    }
+    /* ============================= footer-item =============================== */
 }
 @media (min-width:768px) and (max-width:1199px)
 {
-    h3{
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
         font-size: 25px !important;
     }
-    h4{
+    h3{
         font-size: 20px !important;
+    }
+    h4{
+        font-size: 18px !important;
     }
     /* ============================= header =============================== */
     .navbar-nav{
@@ -149,5 +184,20 @@
     /* ============================= products =============================== */
     .product-item{
         grid-template-columns: repeat(2, 1fr) !important;
-      }
+    }
+    /* ============================= products =============================== */
+
+    /* ============================= camera banner =============================== */
+    .camera-banner{
+        height: 40vh !important;
+    }
+    .camera-text p{
+        font-size: 12px !important;
+    }
+    /* ============================= surveillance =============================== */
+    .surveillance-video{
+        height: 60vh !important;
+    }
+    /* ============================= surveillance =============================== */
+
 }
