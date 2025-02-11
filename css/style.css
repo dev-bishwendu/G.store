@@ -420,7 +420,6 @@ input::placeholder{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 5%;
 }
 .list-footer li {
   padding: 0 15px 0 15px;
@@ -441,7 +440,7 @@ input::placeholder{
   color: #0f66f2 !important;
 }
 .footer-img{
-  padding: 0 230px 10px 0;
+  padding: 0 250px 10px 0;
 }
 /* ============================= footer-item =============================== */
 
