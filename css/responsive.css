@@ -122,6 +122,9 @@
         gap: 10px !important;
         justify-content: center !important;
     }
+    .list-footer li a{
+        font-size: 12px !important;
+    }
     .footer-img{
         padding: 0 0 0 0 !important;
     }
